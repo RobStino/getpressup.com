@@ -1,0 +1,40 @@
+$hero-section--circle-base: 5vw;
+
+
+
+
+// Animations
+$animation-name: default-name;
+$animation-time: 1s;
+
+@mixin circle-animation($animation-name) {
+	-webkit-animation-name: $animation-name; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite;
+    animation-name: $animation-name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 1s;
+}
+
+$start1: 10%;
+$start2: 15%;
+$start3: 20%;
+
+@mixin circle-keyframes($animation-name, $start1, $start2, $start3) {
+	@keyframes $animation-name {
+	    0%   		{border-color: #fff;}
+	    10%   		{border-color: #fff;}
+	    15%   		{border-color: #EAFAFA;}
+	    20%    		{border-color: #fff;}
+	    100%   		{border-color: #fff;}
+	}
+}
+
+@mixin transition {
+	-webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+ 

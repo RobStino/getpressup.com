@@ -1,0 +1,244 @@
+.section {
+	min-height: 100vh;
+}
+.hero-section {
+	// text-align: center;
+	min-height: 100vh;
+	padding-top: 80px;
+	h1 {
+		font-weight: 700;
+		font-size: 4.2rem;
+		line-height: 1.4em;
+		margin-bottom: 60px;
+		margin-top: 0;
+	}
+	h2 {
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 1rem;
+		margin-top: 10px;
+		margin-left: 15px;
+		float: left;
+	}
+	h3 {
+		font-weight: 500;
+		font-size: 2.2rem;
+		line-height: 0.2rem;
+		// color: #444;
+		// text-transform: emphasis;
+		font-style: italic;
+	}
+}
+.hero-section--content-container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.hero-section--app-container {
+	position: fixed;
+}
+.hero-section--app-image {
+	top: 40px;
+	max-width: 320px;
+	position: relative;
+	margin: auto;
+	display: block;
+}
+.hero-section--input {
+	width: 80%;
+	border: 1px solid #000;
+	padding: 10px 16px;
+	position: relative;
+	float: left;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.hero-section--submit {
+	width: 20%;
+	border: 1px solid #222;
+	padding: 10px;
+	position: relative;
+	float: left;
+	background-color: #222;
+	border: 1px solid #222;
+	color: #fff;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.hero-section--submit:after {
+	content: "";
+	display: block;
+	position: relative;
+	background-color: #222;
+	height: 0;
+	width: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+
+
+}
+.hero-section--circle {
+	position: fixed;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	z-index: -100;
+	// box-shadow: 0 0 30px 30px #FBFBFB;
+	@include transition;
+}
+.hero-section--circle-1 {
+	width: $hero-section--circle-base;
+	height: $hero-section--circle-base;
+	margin-left: -($hero-section--circle-base / 2);
+	margin-top: -($hero-section--circle-base / 2);
+	@include circle-animation(circle-1);
+}
+@keyframes circle-1 {
+    0%   		{border-color: #fff;}
+    5%   		{border-color: #fff;}
+    7%   		{border-color: $circle-animation-color;}
+    9%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-2 {
+	width: ($hero-section--circle-base + 10vw);
+	height: ($hero-section--circle-base + 10vw);
+	margin-left: -(($hero-section--circle-base + 10vw) / 2);
+	margin-top: -(($hero-section--circle-base + 10vw) / 2);
+@include circle-animation(circle-2);
+}
+@keyframes circle-2 {
+    0%   		{border-color: #fff;}
+    7%   		{border-color: #fff;}
+    9%   		{border-color: $circle-animation-color;}
+    11%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-3 {
+	width: ($hero-section--circle-base + 20vw);
+	height: ($hero-section--circle-base + 20vw);
+	margin-left: -(($hero-section--circle-base + 20vw) / 2);
+	margin-top: -(($hero-section--circle-base + 20vw) / 2);
+	@include circle-animation(circle-3);
+}
+@keyframes circle-3 {
+    0%   		{border-color: #fff;}
+    9%   		{border-color: #fff;}
+    11%   		{border-color: $circle-animation-color;}
+    13%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-4 {
+	width: ($hero-section--circle-base + 30vw);
+	height: ($hero-section--circle-base + 30vw);
+	margin-left: -(($hero-section--circle-base + 30vw) / 2);
+	margin-top: -(($hero-section--circle-base + 30vw) / 2);
+@include circle-animation(circle-4);
+}
+@keyframes circle-4 {
+    0%   		{border-color: #fff;}
+    11%   		{border-color: #fff;}
+    13%   		{border-color: $circle-animation-color;}
+    15%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-5 {
+	width: ($hero-section--circle-base + 40vw);
+	height: ($hero-section--circle-base + 40vw);
+	margin-left: -(($hero-section--circle-base + 40vw) / 2);
+	margin-top: -(($hero-section--circle-base + 40vw) / 2);
+@include circle-animation(circle-5);
+}
+@keyframes circle-5 {
+    0%   		{border-color: #fff;}
+    13%   		{border-color: #fff;}
+    15%   		{border-color: $circle-animation-color;}
+    17%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-6 {
+	width: ($hero-section--circle-base + 50vw);
+	height: ($hero-section--circle-base + 50vw);
+	margin-left: -(($hero-section--circle-base + 50vw) / 2);
+	margin-top: -(($hero-section--circle-base + 50vw) / 2);
+@include circle-animation(circle-6);
+}
+@keyframes circle-6 {
+    0%   		{border-color: #fff;}
+    15%   		{border-color: #fff;}
+    17%   		{border-color: $circle-animation-color;}
+    19%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-7 {
+	width: ($hero-section--circle-base + 60vw);
+	height: ($hero-section--circle-base + 60vw);
+	margin-left: -(($hero-section--circle-base + 60vw) / 2);
+	margin-top: -(($hero-section--circle-base + 60vw) / 2);
+@include circle-animation(circle-7);
+}
+@keyframes circle-7 {
+    0%   		{border-color: #fff;}
+    17%   		{border-color: #fff;}
+    19%   		{border-color: $circle-animation-color;}
+    21%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-8 {
+	width: ($hero-section--circle-base + 70vw);
+	height: ($hero-section--circle-base + 70vw);
+	margin-left: -(($hero-section--circle-base + 70vw) / 2);
+	margin-top: -(($hero-section--circle-base + 70vw) / 2);
+@include circle-animation(circle-8);
+}
+@keyframes circle-8 {
+    0%   		{border-color: #fff;}
+    19%   		{border-color: #fff;}
+    21%   		{border-color: $circle-animation-color;}
+    23%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-9 {
+	width: ($hero-section--circle-base + 80vw);
+	height: ($hero-section--circle-base + 80vw);
+	margin-left: -(($hero-section--circle-base + 80vw) / 2);
+	margin-top: -(($hero-section--circle-base + 80vw) / 2);
+@include circle-animation(circle-9);
+}
+@keyframes circle-9 {
+    0%   		{border-color: #fff;}
+    21%   		{border-color: #fff;}
+    23%   		{border-color: $circle-animation-color;}
+    25%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-10 {
+	width: ($hero-section--circle-base + 90vw);
+	height: ($hero-section--circle-base + 90vw);
+	margin-left: -(($hero-section--circle-base + 90vw) / 2);
+	margin-top: -(($hero-section--circle-base + 90vw) / 2);
+@include circle-animation(circle-10);
+}
+@keyframes circle-10 {
+    0%   		{border-color: #fff;}
+    23%   		{border-color: #fff;}
+    25%   		{border-color: $circle-animation-color;}
+    27%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
+.hero-section--circle-11 {
+	width: ($hero-section--circle-base + 100vw);
+	height: ($hero-section--circle-base + 100vw);
+	margin-left: -(($hero-section--circle-base + 100vw) / 2);
+	margin-top: -(($hero-section--circle-base + 100vw) / 2);
+@include circle-animation(circle-11);
+}
+@keyframes circle-11 {
+    0%   		{border-color: #fff;}
+    25%   		{border-color: #fff;}
+    27%   		{border-color: $circle-animation-color;}
+    29%    		{border-color: #fff;}
+    100%   		{border-color: #fff;}
+}
