@@ -66,16 +66,11 @@ h6 {
 }
 
 /* line 4, ../sass/_sections.scss */
-.column-left {
-  background-color: #333;
-}
-
-/* line 7, ../sass/_sections.scss */
 .hero-section {
   min-height: 100vh;
   padding-top: 80px;
 }
-/* line 11, ../sass/_sections.scss */
+/* line 8, ../sass/_sections.scss */
 .hero-section h1 {
   font-weight: 700;
   font-size: 4.2rem;
@@ -83,7 +78,7 @@ h6 {
   margin-bottom: 60px;
   margin-top: 0;
 }
-/* line 18, ../sass/_sections.scss */
+/* line 15, ../sass/_sections.scss */
 .hero-section h2 {
   font-size: 1.3rem;
   font-weight: 300;
@@ -92,7 +87,7 @@ h6 {
   margin-left: 15px;
   float: left;
 }
-/* line 26, ../sass/_sections.scss */
+/* line 23, ../sass/_sections.scss */
 .hero-section h3 {
   font-weight: 500;
   font-size: 2.2rem;
@@ -100,19 +95,19 @@ h6 {
   font-style: italic;
 }
 
-/* line 35, ../sass/_sections.scss */
+/* line 32, ../sass/_sections.scss */
 .hero-section--content-container {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 40, ../sass/_sections.scss */
+/* line 37, ../sass/_sections.scss */
 .hero-section--app-container {
   position: fixed;
 }
 
-/* line 43, ../sass/_sections.scss */
+/* line 40, ../sass/_sections.scss */
 .hero-section--app-image {
   top: 40px;
   max-width: 320px;
@@ -121,7 +116,7 @@ h6 {
   display: block;
 }
 
-/* line 50, ../sass/_sections.scss */
+/* line 47, ../sass/_sections.scss */
 .hero-section--input {
   width: 70%;
   border: 1px solid #000;
@@ -132,7 +127,7 @@ h6 {
   border-bottom-left-radius: 20px;
 }
 
-/* line 59, ../sass/_sections.scss */
+/* line 56, ../sass/_sections.scss */
 .hero-section--submit {
   width: 30%;
   border: 1px solid #222;
@@ -146,7 +141,7 @@ h6 {
   border-bottom-right-radius: 20px;
 }
 
-/* line 71, ../sass/_sections.scss */
+/* line 68, ../sass/_sections.scss */
 .hero-section--submit:after {
   content: "";
   display: block;
@@ -159,7 +154,7 @@ h6 {
   border-bottom: 5px solid black;
 }
 
-/* line 84, ../sass/_sections.scss */
+/* line 81, ../sass/_sections.scss */
 .hero-section--circle {
   position: fixed;
   border: 2px solid #fff;
@@ -173,7 +168,7 @@ h6 {
   transition: 0.2s;
 }
 
-/* line 94, ../sass/_sections.scss */
+/* line 91, ../sass/_sections.scss */
 .hero-section--circle-1 {
   width: 5vw;
   height: 5vw;
@@ -207,7 +202,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 108, ../sass/_sections.scss */
+/* line 105, ../sass/_sections.scss */
 .hero-section--circle-2 {
   width: 15vw;
   height: 15vw;
@@ -241,7 +236,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 122, ../sass/_sections.scss */
+/* line 119, ../sass/_sections.scss */
 .hero-section--circle-3 {
   width: 25vw;
   height: 25vw;
@@ -275,7 +270,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 136, ../sass/_sections.scss */
+/* line 133, ../sass/_sections.scss */
 .hero-section--circle-4 {
   width: 35vw;
   height: 35vw;
@@ -309,7 +304,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 150, ../sass/_sections.scss */
+/* line 147, ../sass/_sections.scss */
 .hero-section--circle-5 {
   width: 45vw;
   height: 45vw;
@@ -343,7 +338,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 164, ../sass/_sections.scss */
+/* line 161, ../sass/_sections.scss */
 .hero-section--circle-6 {
   width: 55vw;
   height: 55vw;
@@ -377,7 +372,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 178, ../sass/_sections.scss */
+/* line 175, ../sass/_sections.scss */
 .hero-section--circle-7 {
   width: 65vw;
   height: 65vw;
@@ -411,7 +406,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 192, ../sass/_sections.scss */
+/* line 189, ../sass/_sections.scss */
 .hero-section--circle-8 {
   width: 75vw;
   height: 75vw;
@@ -445,7 +440,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 206, ../sass/_sections.scss */
+/* line 203, ../sass/_sections.scss */
 .hero-section--circle-9 {
   width: 85vw;
   height: 85vw;
@@ -479,7 +474,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 220, ../sass/_sections.scss */
+/* line 217, ../sass/_sections.scss */
 .hero-section--circle-10 {
   width: 95vw;
   height: 95vw;
@@ -513,7 +508,7 @@ h6 {
     border-color: #fff;
   }
 }
-/* line 234, ../sass/_sections.scss */
+/* line 231, ../sass/_sections.scss */
 .hero-section--circle-11 {
   width: 105vw;
   height: 105vw;
