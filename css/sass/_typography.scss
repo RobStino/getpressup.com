@@ -20,6 +20,10 @@ h1 {
 h2 {
 	color: #000;
 	font-weight: 700;
+	span {
+		font-style: italic;
+		font-weight: 500;
+	}
 }
 h3 {
 	color: #000;
@@ -32,4 +36,20 @@ h5 {
 }
 h6 {
 	color: #000;
+}
+.section-title {
+	margin-bottom: 60px;
+	position: relative;
+	text-transform: uppercase;
+	// font-weight: 900;
+}
+.section-title:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	bottom: -30px;
+	// left: -20px;
+	background-color: $text-color-1;
 }

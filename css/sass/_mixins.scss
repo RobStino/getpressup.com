@@ -30,6 +30,17 @@ $start3: 20%;
 	    100%   		{border-color: #fff;}
 	}
 }
+@mixin  circle-animation-start-shadow {
+	-webkit-box-shadow: $circle-animation-start-shadow;
+	-moz-box-shadow: $circle-animation-start-shadow;
+	box-shadow: $circle-animation-start-shadow;
+}
+@mixin  circle-animation-ripple-shadow {
+	-webkit-box-shadow: $circle-animation-ripple-shadow;
+	-moz-box-shadow: $circle-animation-ripple-shadow;
+	box-shadow: $circle-animation-ripple-shadow;
+}
+
 
 @mixin transition {
 	-webkit-transition: 0.2s;
@@ -38,3 +49,20 @@ $start3: 20%;
     transition: 0.2s;
 }
  
+ @mixin drop-shadow {
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+@mixin drop-shadow-light {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+@mixin vertical-center {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}

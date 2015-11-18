@@ -1,16 +1,34 @@
 .section {
-	min-height: 100vh;
+	height: 100vh;
+	// background-color: $brand-color-1;
+}
+.col-dark {
+	background-color: #6CD2EA;
+}
+.col-white {
+	background-color: #fff;
+}
+.col-bg {
+	height: 100vh;
+	position: fixed;
+	// z-index: 1000;
 }
 .hero-section {
+	position: relative;
 	// text-align: center;
 	min-height: 100vh;
-	padding-top: 80px;
+	// padding-top: 180px;
+	// background-color: #fff;
+	// background-image: url('../../images/pressup_hero_bg.jpg');
+	background-size: cover;
+	// background-repeat: none;
 	h1 {
 		font-weight: 700;
 		font-size: 4.2rem;
 		line-height: 1.4em;
 		margin-bottom: 60px;
 		margin-top: 0;
+		color: #fff;
 	}
 	h2 {
 		font-size: 1.3rem;
@@ -19,15 +37,32 @@
 		margin-top: 10px;
 		margin-left: 15px;
 		float: left;
+		color: #fff;
 	}
 	h3 {
-		font-weight: 500;
-		font-size: 2.2rem;
-		line-height: 0.2rem;
+		font-weight: 300;
+		font-size: 1.8rem;
+		// line-height: 0.2rem;
 		// color: #444;
 		// text-transform: emphasis;
-		font-style: italic;
+		span {
+			font-style: italic;
+		}
+		color: #fff;
 	}
+}
+.hero-section--gradient-overlay {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: rgb(57,183,221);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMzOWI3ZGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDVhYmUwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(57,183,221,1) 0%, rgba(5,171,224,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(57,183,221,1) 0%,rgba(5,171,224,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(57,183,221,1) 0%,rgba(5,171,224,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', endColorstr='#05abe0',GradientType=1 );
+
+
 }
 .hero-section--content-container {
 	position: relative;
@@ -35,26 +70,37 @@
 	transform: translateY(-50%);
 }
 .hero-section--app-container {
-	position: fixed;
+	// position: fixed;
+	// text-align: right;
 }
 .hero-section--app-image {
-	top: 40px;
-	max-width: 320px;
-	position: relative;
-	margin: auto;
-	display: block;
+	// top: 40px;
+	max-width: 330px;
+	position: fixed;
+	// top: 180px;
+	// right: 0;
+	// margin: auto;
+	display: inline-block;
+	// @include drop-shadow;
+	// float: left;
+}
+.hero-section--app-icon {
+	max-width: 90px;
+	// float: left;
+	margin-right: 30px;
+	// margin-bottom: 100px;
 }
 .hero-section--input {
-	width: 80%;
+	width: 70%;
 	border: 1px solid #000;
 	padding: 10px 16px;
 	position: relative;
 	float: left;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
 }
 .hero-section--submit {
-	width: 20%;
+	width: 30%;
 	border: 1px solid #222;
 	padding: 10px;
 	position: relative;
@@ -62,8 +108,12 @@
 	background-color: #222;
 	border: 1px solid #222;
 	color: #fff;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.hero-section--submit:hover {
+	background-color: $brand-color-1;
+	border-color: $brand-color-1;
 }
 .hero-section--submit:after {
 	content: "";
@@ -78,14 +128,75 @@
 
 
 }
+.hero-section--scroll-btn {
+	position: absolute;
+	bottom: 35px;
+	left: 50%;
+	display: block;
+	width: 100px;
+	text-align: center;
+	margin-left: -50px;
+	border: 0;
+	color: #fff;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.hero-section--scroll-btn:hover,
+.hero-section--scroll-btn:focus,
+.hero-section--scroll-btn:active {
+	border-bottom: 0;
+	color: #fff;
+	text-decoration: none;
+}
+.hero-section--scroll-btn:after {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	// border-bottom-right-radius: 4px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	z-index: 100;
+	left: 50%;
+	margin-left: -5px;
+	top: 15px;
+	@include transition;
+}
+// .hero-section--scroll-btn:hover:after {
+// 	width: 15px;
+// 	height: 15px;
+// 	// top: -20px;
+// 	// margin-left: -20px;
+// }
+.section--content-wrapper {
+	min-height: 100vh;
+	position: relative
+}
+.section--content-container {
+	@include vertical-center;
+}
+.vertical-center {
+	@include vertical-center;
+}
+
+
+
+
+// Circle Animations
+
 .hero-section--circle {
 	position: fixed;
-	border: 2px solid #fff;
+	border: 1px solid #fff;
 	border-radius: 50%;
 	left: 50%;
 	top: 50%;
 	z-index: -100;
-	// box-shadow: 0 0 30px 30px #FBFBFB;
+	box-shadow: 0 0 0 0 RGBA(255,255,255,0);
 	@include transition;
 }
 .hero-section--circle-1 {
@@ -96,11 +207,11 @@
 	@include circle-animation(circle-1);
 }
 @keyframes circle-1 {
-    0%   		{border-color: #fff;}
-    5%   		{border-color: #fff;}
-    7%   		{border-color: $circle-animation-color;}
-    9%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;  }
+    5%   		{border-color: $circle-animation-start-color;  }
+    7%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    9%    		{border-color: $circle-animation-start-color;   }
+    100%   		{border-color: $circle-animation-start-color;  }
 }
 .hero-section--circle-2 {
 	width: ($hero-section--circle-base + 10vw);
@@ -110,11 +221,11 @@
 @include circle-animation(circle-2);
 }
 @keyframes circle-2 {
-    0%   		{border-color: #fff;}
-    7%   		{border-color: #fff;}
-    9%   		{border-color: $circle-animation-color;}
-    11%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;  }
+    7%   		{border-color: $circle-animation-start-color;  }
+    9%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    11%    		{border-color: $circle-animation-start-color;  }
+    100%   		{border-color: $circle-animation-start-color;  }
 }
 .hero-section--circle-3 {
 	width: ($hero-section--circle-base + 20vw);
@@ -124,11 +235,11 @@
 	@include circle-animation(circle-3);
 }
 @keyframes circle-3 {
-    0%   		{border-color: #fff;}
-    9%   		{border-color: #fff;}
-    11%   		{border-color: $circle-animation-color;}
-    13%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;  }
+    9%   		{border-color: $circle-animation-start-color;  }
+    11%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    13%    		{border-color: $circle-animation-start-color;  }
+    100%   		{border-color: $circle-animation-start-color;  }
 }
 .hero-section--circle-4 {
 	width: ($hero-section--circle-base + 30vw);
@@ -138,11 +249,11 @@
 @include circle-animation(circle-4);
 }
 @keyframes circle-4 {
-    0%   		{border-color: #fff;}
-    11%   		{border-color: #fff;}
-    13%   		{border-color: $circle-animation-color;}
-    15%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;  }
+    11%   		{border-color: $circle-animation-start-color;  }
+    13%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    15%    		{border-color: $circle-animation-start-color;  }
+    100%   		{border-color: $circle-animation-start-color;  }
 }
 .hero-section--circle-5 {
 	width: ($hero-section--circle-base + 40vw);
@@ -152,11 +263,11 @@
 @include circle-animation(circle-5);
 }
 @keyframes circle-5 {
-    0%   		{border-color: #fff;}
-    13%   		{border-color: #fff;}
-    15%   		{border-color: $circle-animation-color;}
-    17%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;  }
+    13%   		{border-color: $circle-animation-start-color;  }
+    15%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    17%    		{border-color: $circle-animation-start-color;  }
+    100%   		{border-color: $circle-animation-start-color;  }
 }
 .hero-section--circle-6 {
 	width: ($hero-section--circle-base + 50vw);
@@ -166,11 +277,11 @@
 @include circle-animation(circle-6);
 }
 @keyframes circle-6 {
-    0%   		{border-color: #fff;}
-    15%   		{border-color: #fff;}
-    17%   		{border-color: $circle-animation-color;}
-    19%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;}
+    15%   		{border-color: $circle-animation-start-color;}
+    17%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    19%    		{border-color: $circle-animation-start-color;}
+    100%   		{border-color: $circle-animation-start-color;}
 }
 .hero-section--circle-7 {
 	width: ($hero-section--circle-base + 60vw);
@@ -180,11 +291,11 @@
 @include circle-animation(circle-7);
 }
 @keyframes circle-7 {
-    0%   		{border-color: #fff;}
-    17%   		{border-color: #fff;}
-    19%   		{border-color: $circle-animation-color;}
-    21%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;}
+    17%   		{border-color: $circle-animation-start-color;}
+    19%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    21%    		{border-color: $circle-animation-start-color;}
+    100%   		{border-color: $circle-animation-start-color;}
 }
 .hero-section--circle-8 {
 	width: ($hero-section--circle-base + 70vw);
@@ -194,11 +305,11 @@
 @include circle-animation(circle-8);
 }
 @keyframes circle-8 {
-    0%   		{border-color: #fff;}
-    19%   		{border-color: #fff;}
-    21%   		{border-color: $circle-animation-color;}
-    23%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;}
+    19%   		{border-color: $circle-animation-start-color;}
+    21%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    23%    		{border-color: $circle-animation-start-color;}
+    100%   		{border-color: $circle-animation-start-color;}
 }
 .hero-section--circle-9 {
 	width: ($hero-section--circle-base + 80vw);
@@ -208,11 +319,11 @@
 @include circle-animation(circle-9);
 }
 @keyframes circle-9 {
-    0%   		{border-color: #fff;}
-    21%   		{border-color: #fff;}
-    23%   		{border-color: $circle-animation-color;}
-    25%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;}
+    21%   		{border-color: $circle-animation-start-color;}
+    23%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    25%    		{border-color: $circle-animation-start-color;}
+    100%   		{border-color: $circle-animation-start-color;}
 }
 .hero-section--circle-10 {
 	width: ($hero-section--circle-base + 90vw);
@@ -222,11 +333,11 @@
 @include circle-animation(circle-10);
 }
 @keyframes circle-10 {
-    0%   		{border-color: #fff;}
-    23%   		{border-color: #fff;}
-    25%   		{border-color: $circle-animation-color;}
-    27%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;}
+    23%   		{border-color: $circle-animation-start-color;}
+    25%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    27%    		{border-color: $circle-animation-start-color;}
+    100%   		{border-color: $circle-animation-start-color;}
 }
 .hero-section--circle-11 {
 	width: ($hero-section--circle-base + 100vw);
@@ -236,9 +347,15 @@
 @include circle-animation(circle-11);
 }
 @keyframes circle-11 {
-    0%   		{border-color: #fff;}
-    25%   		{border-color: #fff;}
-    27%   		{border-color: $circle-animation-color;}
-    29%    		{border-color: #fff;}
-    100%   		{border-color: #fff;}
+    0%   		{border-color: $circle-animation-start-color;}
+    25%   		{border-color: $circle-animation-start-color;}
+    27%   		{border-color: $circle-animation-ripple-color; @include circle-animation-ripple-shadow}
+    29%    		{border-color: $circle-animation-start-color;}
+    100%   		{border-color: $circle-animation-start-color;}
+}
+.section-text {
+	margin-bottom: 40px;
+}
+.section-anchor {
+	margin-top: 40px;
 }
