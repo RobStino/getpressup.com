@@ -16,6 +16,7 @@
 	// z-index: 1000;
 }
 .hero-section {
+	// border: 20px solid #fff;
 	position: relative;
 	// text-align: center;
 	min-height: 100vh;
@@ -55,6 +56,7 @@
 }
 .hero-section--gradient-overlay {
 	padding-top: 14%;
+	border: 20px solid #fff;
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -109,10 +111,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	position: relative;
 	float: left;
 	color: #fff !important;
-	background: -moz-linear-gradient(top,  $button-blue-light 0%, $button-blue-dark 100%);
-	background: -webkit-linear-gradient(top,  $button-blue-light 0%,$button-blue-dark 100%);
-	background: linear-gradient(to bottom,  $button-blue-light 0%,$button-blue-dark 100%);
-	border: 1px solid $button-blue-border;
+	background: -moz-linear-gradient(top,  $button-orange-light 0%, $button-orange-dark 100%);
+	background: -webkit-linear-gradient(top,  $button-orange-light 0%,$button-orange-dark 100%);
+	background: linear-gradient(to bottom,  $button-orange-light 0%,$button-orange-dark 100%);
+	border: 1px solid $button-orange-border;
 	@include transition;
 	border: none;
 	color: #fff;
@@ -120,9 +122,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	border-bottom-right-radius: 4px;
 }
 .hero-section--submit:hover {
-	background: -moz-linear-gradient(top, darken($button-blue-light,10%), darken($button-blue-dark,10%));
-	background: -webkit-linear-gradient(top,  darken($button-blue-light,10%), darken($button-blue-dark,10%));
-	background: linear-gradient(to bottom,  darken($button-blue-light,10%), darken($button-blue-dark,10%));
+	background: -moz-linear-gradient(top, darken($button-orange-light,2%), darken($button-orange-dark,2%));
+	background: -webkit-linear-gradient(top,  darken($button-orange-light,2%), darken($button-orange-dark,2%));
+	background: linear-gradient(to bottom,  darken($button-orange-light,2%), darken($button-orange-dark,2%));
 	// border: 1px solid darken($button-blue-border, 10%);
 }
 .hero-section--submit:after {
@@ -372,14 +374,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 }
 .footer {
 	text-align: center;
-	border-top: 1px solid #000;
+	// border-top: 1px solid #000;
 	padding: 44px;
+	background-color: #f7f7f7;
 	a {
 		// margin-top: 20px;
 	}
 	img {
 		margin-bottom: 30px;
-		max-width: 40px;
+		max-width: 20px;
 		display: inline-block;
 	}
 }

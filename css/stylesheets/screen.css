@@ -13,8 +13,8 @@ a {
 /* line 7, ../sass/_typography.scss */
 a:hover {
   text-decoration: none;
-  color: #6CD2EA;
-  border-bottom: 1px dotted #6CD2EA;
+  color: #1EADCE;
+  border-bottom: 1px dotted #1EADCE;
 }
 
 /* line 12, ../sass/_typography.scss */
@@ -106,7 +106,7 @@ h6 {
   min-height: 100vh;
   background-size: cover;
 }
-/* line 27, ../sass/_sections.scss */
+/* line 28, ../sass/_sections.scss */
 .hero-section h1 {
   font-weight: 700;
   font-size: 4.2rem;
@@ -115,7 +115,7 @@ h6 {
   margin-top: 0;
   color: #fff;
 }
-/* line 35, ../sass/_sections.scss */
+/* line 36, ../sass/_sections.scss */
 .hero-section h2 {
   font-size: 1.3rem;
   font-weight: 300;
@@ -125,20 +125,21 @@ h6 {
   float: left;
   color: #fff;
 }
-/* line 44, ../sass/_sections.scss */
+/* line 45, ../sass/_sections.scss */
 .hero-section h3 {
   font-weight: 300;
   font-size: 1.8rem;
   color: #fff;
 }
-/* line 50, ../sass/_sections.scss */
+/* line 51, ../sass/_sections.scss */
 .hero-section h3 span {
   font-style: italic;
 }
 
-/* line 56, ../sass/_sections.scss */
+/* line 57, ../sass/_sections.scss */
 .hero-section--gradient-overlay {
   padding-top: 14%;
+  border: 20px solid #fff;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -150,27 +151,27 @@ h6 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', endColorstr='#05abe0',GradientType=1 );
 }
 
-/* line 70, ../sass/_sections.scss */
+/* line 72, ../sass/_sections.scss */
 .hero-section--content-container {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 79, ../sass/_sections.scss */
+/* line 81, ../sass/_sections.scss */
 .hero-section--app-image {
   max-width: 330px;
   position: fixed;
   display: inline-block;
 }
 
-/* line 90, ../sass/_sections.scss */
+/* line 92, ../sass/_sections.scss */
 .hero-section--app-icon {
   max-width: 90px;
   margin-right: 30px;
 }
 
-/* line 96, ../sass/_sections.scss */
+/* line 98, ../sass/_sections.scss */
 .hero-section--input {
   width: 70%;
   border: none;
@@ -181,7 +182,7 @@ h6 {
   border-bottom-left-radius: 4px;
 }
 
-/* line 105, ../sass/_sections.scss */
+/* line 107, ../sass/_sections.scss */
 .hero-section--submit {
   width: 30%;
   border: 1px solid #222;
@@ -189,10 +190,10 @@ h6 {
   position: relative;
   float: left;
   color: #fff !important;
-  background: -moz-linear-gradient(top, #48caea 0%, #43bddb 100%);
-  background: -webkit-linear-gradient(top, #48caea 0%, #43bddb 100%);
-  background: linear-gradient(to bottom, #48caea 0%, #43bddb 100%);
-  border: 1px solid #43bddb;
+  background: -moz-linear-gradient(top, #ffbb1f 0%, #ffb306 100%);
+  background: -webkit-linear-gradient(top, #ffbb1f 0%, #ffb306 100%);
+  background: linear-gradient(to bottom, #ffbb1f 0%, #ffb306 100%);
+  border: 1px solid #FFBB1F;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -203,14 +204,14 @@ h6 {
   border-bottom-right-radius: 4px;
 }
 
-/* line 122, ../sass/_sections.scss */
+/* line 124, ../sass/_sections.scss */
 .hero-section--submit:hover {
-  background: -moz-linear-gradient(top, #1abde5, #26a6c5);
-  background: -webkit-linear-gradient(top, #1abde5, #26a6c5);
-  background: linear-gradient(to bottom, #1abde5, #26a6c5);
+  background: -moz-linear-gradient(top, #ffb815, #faae00);
+  background: -webkit-linear-gradient(top, #ffb815, #faae00);
+  background: linear-gradient(to bottom, #ffb815, #faae00);
 }
 
-/* line 128, ../sass/_sections.scss */
+/* line 130, ../sass/_sections.scss */
 .hero-section--submit:after {
   content: "";
   display: block;
@@ -223,7 +224,7 @@ h6 {
   border-bottom: 5px solid black;
 }
 
-/* line 141, ../sass/_sections.scss */
+/* line 143, ../sass/_sections.scss */
 .hero-section--scroll-btn {
   position: absolute;
   bottom: 35px;
@@ -239,7 +240,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-/* line 155, ../sass/_sections.scss */
+/* line 157, ../sass/_sections.scss */
 .hero-section--scroll-btn:hover,
 .hero-section--scroll-btn:focus,
 .hero-section--scroll-btn:active {
@@ -248,7 +249,7 @@ h6 {
   text-decoration: none;
 }
 
-/* line 162, ../sass/_sections.scss */
+/* line 164, ../sass/_sections.scss */
 .hero-section--scroll-btn:after {
   content: "";
   display: block;
@@ -270,13 +271,13 @@ h6 {
   transition: 0.2s;
 }
 
-/* line 186, ../sass/_sections.scss */
+/* line 188, ../sass/_sections.scss */
 .section--content-wrapper {
   min-height: 100vh;
   position: relative;
 }
 
-/* line 202, ../sass/_sections.scss */
+/* line 204, ../sass/_sections.scss */
 .hero-section--circle {
   position: fixed;
   border: 1px solid #fff;
@@ -291,7 +292,7 @@ h6 {
   transition: 0.2s;
 }
 
-/* line 212, ../sass/_sections.scss */
+/* line 214, ../sass/_sections.scss */
 .hero-section--circle-1 {
   width: 5vw;
   height: 5vw;
@@ -328,7 +329,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 226, ../sass/_sections.scss */
+/* line 228, ../sass/_sections.scss */
 .hero-section--circle-2 {
   width: 15vw;
   height: 15vw;
@@ -365,7 +366,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 240, ../sass/_sections.scss */
+/* line 242, ../sass/_sections.scss */
 .hero-section--circle-3 {
   width: 25vw;
   height: 25vw;
@@ -402,7 +403,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 254, ../sass/_sections.scss */
+/* line 256, ../sass/_sections.scss */
 .hero-section--circle-4 {
   width: 35vw;
   height: 35vw;
@@ -439,7 +440,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 268, ../sass/_sections.scss */
+/* line 270, ../sass/_sections.scss */
 .hero-section--circle-5 {
   width: 45vw;
   height: 45vw;
@@ -476,7 +477,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 282, ../sass/_sections.scss */
+/* line 284, ../sass/_sections.scss */
 .hero-section--circle-6 {
   width: 55vw;
   height: 55vw;
@@ -513,7 +514,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 296, ../sass/_sections.scss */
+/* line 298, ../sass/_sections.scss */
 .hero-section--circle-7 {
   width: 65vw;
   height: 65vw;
@@ -550,7 +551,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 310, ../sass/_sections.scss */
+/* line 312, ../sass/_sections.scss */
 .hero-section--circle-8 {
   width: 75vw;
   height: 75vw;
@@ -587,7 +588,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 324, ../sass/_sections.scss */
+/* line 326, ../sass/_sections.scss */
 .hero-section--circle-9 {
   width: 85vw;
   height: 85vw;
@@ -624,7 +625,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 338, ../sass/_sections.scss */
+/* line 340, ../sass/_sections.scss */
 .hero-section--circle-10 {
   width: 95vw;
   height: 95vw;
@@ -661,7 +662,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 352, ../sass/_sections.scss */
+/* line 354, ../sass/_sections.scss */
 .hero-section--circle-11 {
   width: 105vw;
   height: 105vw;
@@ -698,85 +699,86 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 366, ../sass/_sections.scss */
+/* line 368, ../sass/_sections.scss */
 .section-text {
   margin-bottom: 20px;
 }
 
-/* line 369, ../sass/_sections.scss */
+/* line 371, ../sass/_sections.scss */
 .section-anchor {
   position: relative;
   top: 20px;
 }
 
-/* line 373, ../sass/_sections.scss */
+/* line 375, ../sass/_sections.scss */
 .footer {
   text-align: center;
-  border-top: 1px solid #000;
   padding: 44px;
+  background-color: #f7f7f7;
 }
-/* line 380, ../sass/_sections.scss */
+/* line 383, ../sass/_sections.scss */
 .footer img {
   margin-bottom: 30px;
-  max-width: 40px;
+  max-width: 20px;
   display: inline-block;
 }
 
 /* line 1, ../sass/_navigation.scss */
 .site-nav {
   width: 100%;
-  padding: 30px 0;
+  padding-top: 50px;
   z-index: 100;
   position: absolute;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-/* line 6, ../sass/_navigation.scss */
+/* line 8, ../sass/_navigation.scss */
 .site-nav ul {
   list-style: none;
 }
-/* line 10, ../sass/_navigation.scss */
+/* line 12, ../sass/_navigation.scss */
 .site-nav ul li {
   display: inline-block;
-  margin: 0 10px;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
 }
-/* line 17, ../sass/_navigation.scss */
+/* line 19, ../sass/_navigation.scss */
 .site-nav ul li a {
   color: #fff;
   padding-bottom: 2px;
   text-decoration: none;
   border-bottom: 1px dotted #fff;
 }
-/* line 23, ../sass/_navigation.scss */
+/* line 25, ../sass/_navigation.scss */
 .site-nav ul li a:hover {
   border-bottom: 1px solid #fff;
 }
-/* line 28, ../sass/_navigation.scss */
+/* line 30, ../sass/_navigation.scss */
 .site-nav .site-nav--logo a {
   margin-right: 30px;
   border-bottom: 0;
 }
-/* line 32, ../sass/_navigation.scss */
+/* line 34, ../sass/_navigation.scss */
 .site-nav .site-nav--logo a:hover {
   border-bottom: 0;
 }
-/* line 35, ../sass/_navigation.scss */
+/* line 37, ../sass/_navigation.scss */
 .site-nav .site-nav--item {
   float: right;
 }
-/* line 39, ../sass/_navigation.scss */
+/* line 41, ../sass/_navigation.scss */
 .site-nav .site-nav--appstore-item a {
   border: 1px dotted #fff;
   padding: 6px 12px;
   border-radius: 5px;
 }
-/* line 45, ../sass/_navigation.scss */
+/* line 47, ../sass/_navigation.scss */
 .site-nav .site-nav--appstore-item a:hover {
   border: 1px solid #fff;
 }
-/* line 49, ../sass/_navigation.scss */
+/* line 51, ../sass/_navigation.scss */
 .site-nav img {
   width: 20px;
   margin-right: 4px;
