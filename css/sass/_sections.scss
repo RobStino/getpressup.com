@@ -1,6 +1,8 @@
 .section {
 	padding-top: 180px;
 	padding-bottom: 180px;
+	padding-right: 20px;
+	padding-left: 20px;
 	// height: 100vh;
 	// background-color: $brand-color-1;
 }
@@ -86,6 +88,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	// right: 0;
 	// margin: auto;
 	display: inline-block;
+	// margin-right: 20px;
 	// @include drop-shadow;
 	// float: left;
 }
@@ -371,6 +374,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 .section-anchor {
 	position: relative;
 	top: 20px;
+}
+.pressup-app-section {
+	position: relative;
+	// text-align: center;
+	img {
+		display: block;
+		position: relative;
+		width: 80%;
+		max-width: 330px;
+		margin: auto;
+		margin-top: 40px;
+	}
 }
 .footer {
 	text-align: center;

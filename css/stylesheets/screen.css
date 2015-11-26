@@ -82,31 +82,33 @@ h6 {
 .section {
   padding-top: 180px;
   padding-bottom: 180px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
-/* line 7, ../sass/_sections.scss */
+/* line 9, ../sass/_sections.scss */
 .col-dark {
   background-color: #6CD2EA;
 }
 
-/* line 10, ../sass/_sections.scss */
+/* line 12, ../sass/_sections.scss */
 .col-white {
   background-color: #fff;
 }
 
-/* line 13, ../sass/_sections.scss */
+/* line 15, ../sass/_sections.scss */
 .col-bg {
   height: 100vh;
   position: fixed;
 }
 
-/* line 18, ../sass/_sections.scss */
+/* line 20, ../sass/_sections.scss */
 .hero-section {
   position: relative;
   min-height: 100vh;
   background-size: cover;
 }
-/* line 28, ../sass/_sections.scss */
+/* line 30, ../sass/_sections.scss */
 .hero-section h1 {
   font-weight: 700;
   font-size: 4.2rem;
@@ -115,7 +117,7 @@ h6 {
   margin-top: 0;
   color: #fff;
 }
-/* line 36, ../sass/_sections.scss */
+/* line 38, ../sass/_sections.scss */
 .hero-section h2 {
   font-size: 1.3rem;
   font-weight: 300;
@@ -125,18 +127,18 @@ h6 {
   float: left;
   color: #fff;
 }
-/* line 45, ../sass/_sections.scss */
+/* line 47, ../sass/_sections.scss */
 .hero-section h3 {
   font-weight: 300;
   font-size: 2.2rem;
   color: #fff;
 }
-/* line 51, ../sass/_sections.scss */
+/* line 53, ../sass/_sections.scss */
 .hero-section h3 span {
   font-style: italic;
 }
 
-/* line 57, ../sass/_sections.scss */
+/* line 59, ../sass/_sections.scss */
 .hero-section--gradient-overlay {
   padding-top: 14%;
   border: 20px solid #fff;
@@ -151,27 +153,27 @@ h6 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', endColorstr='#05abe0',GradientType=1 );
 }
 
-/* line 72, ../sass/_sections.scss */
+/* line 74, ../sass/_sections.scss */
 .hero-section--content-container {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 81, ../sass/_sections.scss */
+/* line 83, ../sass/_sections.scss */
 .hero-section--app-image {
   max-width: 330px;
   position: fixed;
   display: inline-block;
 }
 
-/* line 92, ../sass/_sections.scss */
+/* line 95, ../sass/_sections.scss */
 .hero-section--app-icon {
   max-width: 90px;
   margin-right: 30px;
 }
 
-/* line 98, ../sass/_sections.scss */
+/* line 101, ../sass/_sections.scss */
 .hero-section--input {
   width: 70%;
   border: none;
@@ -182,7 +184,7 @@ h6 {
   border-bottom-left-radius: 4px;
 }
 
-/* line 107, ../sass/_sections.scss */
+/* line 110, ../sass/_sections.scss */
 .hero-section--submit {
   width: 30%;
   border: 1px solid #222;
@@ -204,14 +206,14 @@ h6 {
   border-bottom-right-radius: 4px;
 }
 
-/* line 124, ../sass/_sections.scss */
+/* line 127, ../sass/_sections.scss */
 .hero-section--submit:hover {
   background: -moz-linear-gradient(top, #ffb815, #faae00);
   background: -webkit-linear-gradient(top, #ffb815, #faae00);
   background: linear-gradient(to bottom, #ffb815, #faae00);
 }
 
-/* line 130, ../sass/_sections.scss */
+/* line 133, ../sass/_sections.scss */
 .hero-section--submit:after {
   content: "";
   display: block;
@@ -224,7 +226,7 @@ h6 {
   border-bottom: 5px solid black;
 }
 
-/* line 143, ../sass/_sections.scss */
+/* line 146, ../sass/_sections.scss */
 .hero-section--scroll-btn {
   position: absolute;
   bottom: 35px;
@@ -240,7 +242,7 @@ h6 {
   letter-spacing: 1px;
 }
 
-/* line 157, ../sass/_sections.scss */
+/* line 160, ../sass/_sections.scss */
 .hero-section--scroll-btn:hover,
 .hero-section--scroll-btn:focus,
 .hero-section--scroll-btn:active {
@@ -249,7 +251,7 @@ h6 {
   text-decoration: none;
 }
 
-/* line 164, ../sass/_sections.scss */
+/* line 167, ../sass/_sections.scss */
 .hero-section--scroll-btn:after {
   content: "";
   display: block;
@@ -271,13 +273,13 @@ h6 {
   transition: 0.2s;
 }
 
-/* line 188, ../sass/_sections.scss */
+/* line 191, ../sass/_sections.scss */
 .section--content-wrapper {
   min-height: 100vh;
   position: relative;
 }
 
-/* line 204, ../sass/_sections.scss */
+/* line 207, ../sass/_sections.scss */
 .hero-section--circle {
   position: fixed;
   border: 1px solid #fff;
@@ -292,7 +294,7 @@ h6 {
   transition: 0.2s;
 }
 
-/* line 214, ../sass/_sections.scss */
+/* line 217, ../sass/_sections.scss */
 .hero-section--circle-1 {
   width: 5vw;
   height: 5vw;
@@ -329,7 +331,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 228, ../sass/_sections.scss */
+/* line 231, ../sass/_sections.scss */
 .hero-section--circle-2 {
   width: 15vw;
   height: 15vw;
@@ -366,7 +368,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 242, ../sass/_sections.scss */
+/* line 245, ../sass/_sections.scss */
 .hero-section--circle-3 {
   width: 25vw;
   height: 25vw;
@@ -403,7 +405,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 256, ../sass/_sections.scss */
+/* line 259, ../sass/_sections.scss */
 .hero-section--circle-4 {
   width: 35vw;
   height: 35vw;
@@ -440,7 +442,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 270, ../sass/_sections.scss */
+/* line 273, ../sass/_sections.scss */
 .hero-section--circle-5 {
   width: 45vw;
   height: 45vw;
@@ -477,7 +479,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 284, ../sass/_sections.scss */
+/* line 287, ../sass/_sections.scss */
 .hero-section--circle-6 {
   width: 55vw;
   height: 55vw;
@@ -514,7 +516,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 298, ../sass/_sections.scss */
+/* line 301, ../sass/_sections.scss */
 .hero-section--circle-7 {
   width: 65vw;
   height: 65vw;
@@ -551,7 +553,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 312, ../sass/_sections.scss */
+/* line 315, ../sass/_sections.scss */
 .hero-section--circle-8 {
   width: 75vw;
   height: 75vw;
@@ -588,7 +590,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 326, ../sass/_sections.scss */
+/* line 329, ../sass/_sections.scss */
 .hero-section--circle-9 {
   width: 85vw;
   height: 85vw;
@@ -625,7 +627,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 340, ../sass/_sections.scss */
+/* line 343, ../sass/_sections.scss */
 .hero-section--circle-10 {
   width: 95vw;
   height: 95vw;
@@ -662,7 +664,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 354, ../sass/_sections.scss */
+/* line 357, ../sass/_sections.scss */
 .hero-section--circle-11 {
   width: 105vw;
   height: 105vw;
@@ -699,24 +701,38 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 368, ../sass/_sections.scss */
+/* line 371, ../sass/_sections.scss */
 .section-text {
   margin-bottom: 20px;
 }
 
-/* line 371, ../sass/_sections.scss */
+/* line 374, ../sass/_sections.scss */
 .section-anchor {
   position: relative;
   top: 20px;
 }
 
-/* line 375, ../sass/_sections.scss */
+/* line 378, ../sass/_sections.scss */
+.pressup-app-section {
+  position: relative;
+}
+/* line 381, ../sass/_sections.scss */
+.pressup-app-section img {
+  display: block;
+  position: relative;
+  width: 80%;
+  max-width: 330px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* line 390, ../sass/_sections.scss */
 .footer {
   text-align: center;
   padding: 44px;
   background-color: #f7f7f7;
 }
-/* line 383, ../sass/_sections.scss */
+/* line 398, ../sass/_sections.scss */
 .footer img {
   margin-bottom: 30px;
   max-width: 20px;
