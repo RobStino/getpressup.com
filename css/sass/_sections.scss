@@ -177,10 +177,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 .hero-section--scroll-btn:after {
 	content: "";
 	display: block;
-	width: 10px;
-	height: 10px;
-	border-right: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+	width: 20px;
+	height: 20px;
+	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-radius: 2px;
 	// border-bottom-right-radius: 4px;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -188,8 +189,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	position: absolute;
 	z-index: 100;
 	left: 50%;
-	margin-left: -5px;
-	top: 15px;
+	margin-left: -10px;
+	top: -5px;
 	@include transition;
 }
 // .hero-section--scroll-btn:hover:after {

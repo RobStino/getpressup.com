@@ -264,31 +264,32 @@ h6 {
 .hero-section--scroll-btn:after {
   content: "";
   display: block;
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-radius: 2px;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
   z-index: 100;
   left: 50%;
-  margin-left: -5px;
-  top: 15px;
+  margin-left: -10px;
+  top: -5px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
 }
 
-/* line 201, ../sass/_sections.scss */
+/* line 202, ../sass/_sections.scss */
 .section--content-wrapper {
   min-height: 100vh;
   position: relative;
 }
 
-/* line 217, ../sass/_sections.scss */
+/* line 218, ../sass/_sections.scss */
 .hero-section--circle {
   position: fixed;
   border: 1px solid #fff;
@@ -303,7 +304,7 @@ h6 {
   transition: 0.2s;
 }
 
-/* line 227, ../sass/_sections.scss */
+/* line 228, ../sass/_sections.scss */
 .hero-section--circle-1 {
   width: 5vw;
   height: 5vw;
@@ -340,7 +341,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 241, ../sass/_sections.scss */
+/* line 242, ../sass/_sections.scss */
 .hero-section--circle-2 {
   width: 15vw;
   height: 15vw;
@@ -377,7 +378,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 255, ../sass/_sections.scss */
+/* line 256, ../sass/_sections.scss */
 .hero-section--circle-3 {
   width: 25vw;
   height: 25vw;
@@ -414,7 +415,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 269, ../sass/_sections.scss */
+/* line 270, ../sass/_sections.scss */
 .hero-section--circle-4 {
   width: 35vw;
   height: 35vw;
@@ -451,7 +452,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 283, ../sass/_sections.scss */
+/* line 284, ../sass/_sections.scss */
 .hero-section--circle-5 {
   width: 45vw;
   height: 45vw;
@@ -488,7 +489,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 297, ../sass/_sections.scss */
+/* line 298, ../sass/_sections.scss */
 .hero-section--circle-6 {
   width: 55vw;
   height: 55vw;
@@ -525,7 +526,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 311, ../sass/_sections.scss */
+/* line 312, ../sass/_sections.scss */
 .hero-section--circle-7 {
   width: 65vw;
   height: 65vw;
@@ -562,7 +563,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 325, ../sass/_sections.scss */
+/* line 326, ../sass/_sections.scss */
 .hero-section--circle-8 {
   width: 75vw;
   height: 75vw;
@@ -599,7 +600,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 339, ../sass/_sections.scss */
+/* line 340, ../sass/_sections.scss */
 .hero-section--circle-9 {
   width: 85vw;
   height: 85vw;
@@ -636,7 +637,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 353, ../sass/_sections.scss */
+/* line 354, ../sass/_sections.scss */
 .hero-section--circle-10 {
   width: 95vw;
   height: 95vw;
@@ -673,7 +674,7 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 367, ../sass/_sections.scss */
+/* line 368, ../sass/_sections.scss */
 .hero-section--circle-11 {
   width: 105vw;
   height: 105vw;
@@ -710,22 +711,22 @@ h6 {
     border-color: RGBA(255, 255, 255, 0);
   }
 }
-/* line 381, ../sass/_sections.scss */
+/* line 382, ../sass/_sections.scss */
 .section-text {
   margin-bottom: 20px;
 }
 
-/* line 384, ../sass/_sections.scss */
+/* line 385, ../sass/_sections.scss */
 .section-anchor {
   position: relative;
   top: 20px;
 }
 
-/* line 388, ../sass/_sections.scss */
+/* line 389, ../sass/_sections.scss */
 .pressup-app-section {
   position: relative;
 }
-/* line 391, ../sass/_sections.scss */
+/* line 392, ../sass/_sections.scss */
 .pressup-app-section img {
   display: block;
   position: relative;
@@ -735,13 +736,13 @@ h6 {
   margin-top: 40px;
 }
 
-/* line 400, ../sass/_sections.scss */
+/* line 401, ../sass/_sections.scss */
 .footer {
   text-align: center;
   padding: 44px;
   background-color: #f7f7f7;
 }
-/* line 408, ../sass/_sections.scss */
+/* line 409, ../sass/_sections.scss */
 .footer img {
   margin-bottom: 30px;
   max-width: 20px;
