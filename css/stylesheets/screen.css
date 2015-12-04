@@ -27,47 +27,49 @@ p {
 /* line 17, ../sass/_typography.scss */
 h1 {
   color: #000;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* line 20, ../sass/_typography.scss */
+/* line 21, ../sass/_typography.scss */
 h2 {
   color: #000;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
-/* line 23, ../sass/_typography.scss */
+/* line 25, ../sass/_typography.scss */
 h2 span {
   font-style: italic;
   font-weight: 500;
 }
 
-/* line 28, ../sass/_typography.scss */
+/* line 30, ../sass/_typography.scss */
 h3 {
   color: #000;
 }
 
-/* line 31, ../sass/_typography.scss */
+/* line 33, ../sass/_typography.scss */
 h4 {
   color: #000;
 }
 
-/* line 34, ../sass/_typography.scss */
+/* line 36, ../sass/_typography.scss */
 h5 {
   color: #000;
 }
 
-/* line 37, ../sass/_typography.scss */
+/* line 39, ../sass/_typography.scss */
 h6 {
   color: #000;
 }
 
-/* line 40, ../sass/_typography.scss */
+/* line 42, ../sass/_typography.scss */
 .section-title {
   margin-bottom: 60px;
   position: relative;
   text-transform: uppercase;
 }
 
-/* line 46, ../sass/_typography.scss */
+/* line 48, ../sass/_typography.scss */
 .section-title:after {
   content: "";
   display: block;
@@ -110,7 +112,6 @@ h6 {
 }
 /* line 30, ../sass/_sections.scss */
 .hero-section h1 {
-  font-weight: 700;
   font-size: 4.2rem;
   line-height: 1.4em;
   margin-bottom: 30px;
