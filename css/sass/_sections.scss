@@ -1,5 +1,9 @@
 .section {
-	height: 100vh;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	padding-right: 20px;
+	padding-left: 20px;
+	// height: 100vh;
 	// background-color: $brand-color-1;
 }
 .col-dark {
@@ -14,6 +18,7 @@
 	// z-index: 1000;
 }
 .hero-section {
+	// border: 20px solid #fff;
 	position: relative;
 	// text-align: center;
 	min-height: 100vh;
@@ -26,22 +31,23 @@
 		font-weight: 700;
 		font-size: 4.2rem;
 		line-height: 1.4em;
-		margin-bottom: 60px;
+		margin-bottom: 30px;
 		margin-top: 0;
 		color: #fff;
 	}
 	h2 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		font-weight: 300;
-		line-height: 1rem;
-		margin-top: 10px;
-		margin-left: 15px;
+		// font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		line-height: 1.6rem;
+		// margin-top: 10px;
+		// margin-left: 15px;
 		float: left;
 		color: #fff;
 	}
 	h3 {
 		font-weight: 300;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		// line-height: 0.2rem;
 		// color: #444;
 		// text-transform: emphasis;
@@ -50,8 +56,19 @@
 		}
 		color: #fff;
 	}
+	h4 {
+		font-size: 1.2rem;
+		font-weight: 300;
+		line-height: 1.6rem;
+		margin-top: 8px;
+		margin-left: 15px;
+		float: left;
+		color: #fff;
+	}
 }
 .hero-section--gradient-overlay {
+	padding-top: 14%;
+	border: 20px solid #fff;
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -77,10 +94,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	// top: 40px;
 	max-width: 330px;
 	position: fixed;
+	top: 150px;
 	// top: 180px;
 	// right: 0;
 	// margin: auto;
 	display: inline-block;
+	// margin-right: 20px;
 	// @include drop-shadow;
 	// float: left;
 }
@@ -92,7 +111,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 }
 .hero-section--input {
 	width: 70%;
-	border: 1px solid #000;
+	border: none;
 	padding: 10px 16px;
 	position: relative;
 	float: left;
@@ -105,15 +124,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	padding: 10px;
 	position: relative;
 	float: left;
-	background-color: #222;
-	border: 1px solid #222;
+	color: #fff !important;
+	background: -moz-linear-gradient(top,  $button-orange-light 0%, $button-orange-dark 100%);
+	background: -webkit-linear-gradient(top,  $button-orange-light 0%,$button-orange-dark 100%);
+	background: linear-gradient(to bottom,  $button-orange-light 0%,$button-orange-dark 100%);
+	border: 1px solid $button-orange-border;
+	@include transition;
+	border: none;
 	color: #fff;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
 .hero-section--submit:hover {
-	background-color: $brand-color-1;
-	border-color: $brand-color-1;
+	background: -moz-linear-gradient(top, darken($button-orange-light,2%), darken($button-orange-dark,2%));
+	background: -webkit-linear-gradient(top,  darken($button-orange-light,2%), darken($button-orange-dark,2%));
+	background: linear-gradient(to bottom,  darken($button-orange-light,2%), darken($button-orange-dark,2%));
+	// border: 1px solid darken($button-blue-border, 10%);
 }
 .hero-section--submit:after {
 	content: "";
@@ -152,10 +178,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 .hero-section--scroll-btn:after {
 	content: "";
 	display: block;
-	width: 10px;
-	height: 10px;
-	border-right: 2px solid #fff;
-	border-bottom: 2px solid #fff;
+	width: 20px;
+	height: 20px;
+	border-right: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-radius: 2px;
 	// border-bottom-right-radius: 4px;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -163,8 +190,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	position: absolute;
 	z-index: 100;
 	left: 50%;
-	margin-left: -5px;
-	top: 15px;
+	margin-left: -10px;
+	top: -15px;
 	@include transition;
 }
 // .hero-section--scroll-btn:hover:after {
@@ -354,8 +381,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
     100%   		{border-color: $circle-animation-start-color;}
 }
 .section-text {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .section-anchor {
-	margin-top: 40px;
+	position: relative;
+	top: 20px;
+	font-style: italic;
+}
+.pressup-app-section {
+	position: relative;
+	// text-align: center;
+	img {
+		display: block;
+		position: relative;
+		width: 80%;
+		max-width: 330px;
+		margin: auto;
+		margin-top: 40px;
+	}
+}
+.footer {
+	text-align: center;
+	// border-top: 1px solid #000;
+	padding: 44px;
+	background-color: #f7f7f7;
+	a {
+		// margin-top: 20px;
+	}
+	img {
+		margin-bottom: 30px;
+		max-width: 20px;
+		display: inline-block;
+	}
 }

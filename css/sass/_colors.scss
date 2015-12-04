@@ -1,7 +1,21 @@
 $brand-color-1: #1EADCE;
-$brand-color-1: #6CD2EA;
+$brand-color-2: #6CD2EA;
+$brand-color-3: #FFBB1F;
 $text-color-1: #222;
 $circle-animation-start-color: RGBA(255,255,255,0);
 $circle-animation-ripple-color: RGBA(255,255,255,0.2);
 $circle-animation-start-shadow: 0 0 0 0 RGBA(255,255,255,0);
 $circle-animation-ripple-shadow: 0 0 2vw 2vw RGBA(255,255,255,0.05);
+
+// Button Colors
+$button-blue-light: rgba(72,202,234,1);
+$button-blue-dark: rgba(67,189,219,1);
+$button-blue-border: #43bddb;
+
+$button-green-light: rgba(11,211,24,1);
+$button-green-dark: rgba(11,211,24,1);
+$button-green-border: #0BD318;
+
+$button-orange-light: rgba(255,187,31,1);
+$button-orange-dark: darken(rgba(255,187,31,1), 5%);
+$button-orange-border: $brand-color-3;
