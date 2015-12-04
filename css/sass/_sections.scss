@@ -191,7 +191,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	z-index: 100;
 	left: 50%;
 	margin-left: -10px;
-	top: -5px;
+	top: -15px;
 	@include transition;
 }
 // .hero-section--scroll-btn:hover:after {
@@ -381,11 +381,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
     100%   		{border-color: $circle-animation-start-color;}
 }
 .section-text {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .section-anchor {
 	position: relative;
 	top: 20px;
+	font-style: italic;
 }
 .pressup-app-section {
 	position: relative;

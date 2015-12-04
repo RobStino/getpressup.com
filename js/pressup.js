@@ -3,6 +3,11 @@ $(function () {
 })
 
 
+// Bootstrap Popover
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+
 // Smooth Scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

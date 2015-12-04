@@ -282,7 +282,7 @@ h6 {
   z-index: 100;
   left: 50%;
   margin-left: -10px;
-  top: -5px;
+  top: -15px;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -o-transition: 0.2s;
@@ -719,20 +719,21 @@ h6 {
 }
 /* line 383, ../sass/_sections.scss */
 .section-text {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* line 386, ../sass/_sections.scss */
 .section-anchor {
   position: relative;
   top: 20px;
+  font-style: italic;
 }
 
-/* line 390, ../sass/_sections.scss */
+/* line 391, ../sass/_sections.scss */
 .pressup-app-section {
   position: relative;
 }
-/* line 393, ../sass/_sections.scss */
+/* line 394, ../sass/_sections.scss */
 .pressup-app-section img {
   display: block;
   position: relative;
@@ -742,13 +743,13 @@ h6 {
   margin-top: 40px;
 }
 
-/* line 402, ../sass/_sections.scss */
+/* line 403, ../sass/_sections.scss */
 .footer {
   text-align: center;
   padding: 44px;
   background-color: #f7f7f7;
 }
-/* line 410, ../sass/_sections.scss */
+/* line 411, ../sass/_sections.scss */
 .footer img {
   margin-bottom: 30px;
   max-width: 20px;
@@ -801,23 +802,24 @@ h6 {
   float: right;
   position: relative;
   top: 8px;
+  margin-left: 20px;
 }
-/* line 43, ../sass/_navigation.scss */
+/* line 44, ../sass/_navigation.scss */
 .site-nav .site-nav--appstore-item a {
   border: 1px dotted #fff;
   padding: 6px 12px;
   border-radius: 5px;
 }
-/* line 49, ../sass/_navigation.scss */
+/* line 50, ../sass/_navigation.scss */
 .site-nav .site-nav--appstore-item a:hover {
   border: 1px solid #fff;
 }
-/* line 53, ../sass/_navigation.scss */
+/* line 54, ../sass/_navigation.scss */
 .site-nav img {
   width: 30px;
   margin-right: 4px;
 }
-/* line 57, ../sass/_navigation.scss */
+/* line 58, ../sass/_navigation.scss */
 .site-nav .wordmark {
   position: relative;
   top: 1px;
