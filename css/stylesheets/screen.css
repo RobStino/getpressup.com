@@ -799,23 +799,25 @@ h6 {
 /* line 37, ../sass/_navigation.scss */
 .site-nav .site-nav--item {
   float: right;
+  position: relative;
+  top: 8px;
 }
-/* line 41, ../sass/_navigation.scss */
+/* line 43, ../sass/_navigation.scss */
 .site-nav .site-nav--appstore-item a {
   border: 1px dotted #fff;
   padding: 6px 12px;
   border-radius: 5px;
 }
-/* line 47, ../sass/_navigation.scss */
+/* line 49, ../sass/_navigation.scss */
 .site-nav .site-nav--appstore-item a:hover {
   border: 1px solid #fff;
 }
-/* line 51, ../sass/_navigation.scss */
+/* line 53, ../sass/_navigation.scss */
 .site-nav img {
   width: 30px;
   margin-right: 4px;
 }
-/* line 55, ../sass/_navigation.scss */
+/* line 57, ../sass/_navigation.scss */
 .site-nav .wordmark {
   position: relative;
   top: 1px;

@@ -36,6 +36,8 @@
 	}
 	.site-nav--item {
 		float: right;
+		position: relative;
+		top: 8px;
 	}
 	.site-nav--appstore-item {
 		a {
