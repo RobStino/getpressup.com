@@ -27,14 +27,14 @@ p {
 /* line 17, ../sass/_typography.scss */
 h1 {
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* line 21, ../sass/_typography.scss */
 h2 {
   color: #000;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, sans-serif;
 }
 /* line 25, ../sass/_typography.scss */
 h2 span {
@@ -45,31 +45,35 @@ h2 span {
 /* line 30, ../sass/_typography.scss */
 h3 {
   color: #000;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 33, ../sass/_typography.scss */
+/* line 34, ../sass/_typography.scss */
 h4 {
   color: #000;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 36, ../sass/_typography.scss */
+/* line 38, ../sass/_typography.scss */
 h5 {
   color: #000;
-}
-
-/* line 39, ../sass/_typography.scss */
-h6 {
-  color: #000;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 /* line 42, ../sass/_typography.scss */
+h6 {
+  color: #000;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* line 46, ../sass/_typography.scss */
 .section-title {
   margin-bottom: 60px;
   position: relative;
   text-transform: uppercase;
 }
 
-/* line 48, ../sass/_typography.scss */
+/* line 52, ../sass/_typography.scss */
 .section-title:after {
   content: "";
   display: block;
