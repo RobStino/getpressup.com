@@ -17,6 +17,28 @@
 	position: fixed;
 	// z-index: 1000;
 }
+.menu-bar {
+	width: 100%;
+	height: 24px;
+	background: rgba(246, 246, 246, 0.0);
+	position: fixed;
+	top: -22px;
+	z-index: 10;
+	@include transition;
+	&.fixed-top {
+		background: rgba(246, 246, 246, 0.9);
+	}
+	img {
+		height: 16px;
+		width: auto;
+		margin-top: 3px;
+		margin-left: 160px;
+	}
+}
+.fixed-top {
+	position: fixed;
+	top: 0;
+}
 .hero-section {
 	// border: 20px solid #fff;
 	position: relative;
@@ -67,7 +89,6 @@
 }
 .hero-section--gradient-overlay {
 	padding-top: 14%;
-	border: 20px solid #fff;
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -90,17 +111,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b7dd', end
 	// text-align: right;
 }
 .hero-section--app-image {
-	// top: 40px;
 	max-width: 330px;
-	position: fixed;
-	top: 150px;
-	// top: 180px;
-	// right: 0;
-	// margin: auto;
-	display: inline-block;
-	// margin-right: 20px;
-	// @include drop-shadow;
-	// float: left;
+	margin-top: -50px;
+	padding-top: 24px;
+	&.fixed-top {
+		margin-top: 0;
+	}
 }
 .hero-section--app-icon {
 	max-width: 90px;
